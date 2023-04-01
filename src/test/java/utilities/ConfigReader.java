@@ -21,6 +21,7 @@ public class ConfigReader {
         try {
             FileInputStream ip = new FileInputStream(filePath); //get file path
             prop.load(ip);
+            String url = prop.getProperty("url");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {

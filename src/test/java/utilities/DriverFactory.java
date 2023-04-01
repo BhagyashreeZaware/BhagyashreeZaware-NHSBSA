@@ -4,10 +4,19 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.safari.SafariDriver;
 
 public class DriverFactory {
 
     public WebDriver driver;
+    /**
+     * This method is used to initialize the thradlocal driver on the basis of given
+     * browser
+     *
+     * @param browser
+     * @return this will return tldriver.
+     */
     public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
     public WebDriver init_driver(String browser) {
 
@@ -19,8 +28,10 @@ public class DriverFactory {
 
         } else if (browser.equals("firefox")) {
             WebDriverManager.firefoxdriver().setup();
-
+            tlDriver.set(new FirefoxDriver());
         } else if (browser.equals("safari")) {
+            WebDriverManager.safaridriver().setup();
+            tlDriver.set(new SafariDriver());
         } else {
             System.out.println("Please pass the correct browser value: " + browser);
         }

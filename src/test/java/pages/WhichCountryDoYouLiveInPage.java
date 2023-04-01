@@ -5,33 +5,38 @@ import org.openqa.selenium.WebDriver;
 
 public class WhichCountryDoYouLiveInPage {
 
-    private WebDriver driver;
+    WebDriver driver;
 
-    //Class constructor
-    public WhichCountryDoYouLiveInPage(WebDriver driver) {
-        this.driver = driver;
-    }
-    //Locators
     By ENGLAND = By.id("radio-england");
     By SCOTLAND = By.id("radio-scotland");
     By WALES = By.id("radio-wales");
     By NORTHERN_IRELAND = By.id("radio-nire");
     By NEXT_BUTTON = By.id("next-button");
-    By HEADING = By.id("question-heading");
 
-    public void selectCountry(String countryName) {
-        if (countryName.equalsIgnoreCase("england") || countryName.equalsIgnoreCase("ENGLAND")) {
+    public WhichCountryDoYouLiveInPage(WebDriver driver) {
+
+        this.driver = driver;
+
+    }
+    public void liveInCountry(String country) {
+        if(country.equalsIgnoreCase("england") || country.equalsIgnoreCase("ENGLAND")) {
             driver.findElement(ENGLAND).click();
-        } else if (countryName.equalsIgnoreCase("scotland") || countryName.equalsIgnoreCase("OPTION_SCOTLAND")) {
+
+        }
+        else if(country.equalsIgnoreCase("scotland") || country.equalsIgnoreCase("SCOTLAND") ) {
             driver.findElement(SCOTLAND).click();
-        } else if (countryName.equalsIgnoreCase("wales") || countryName.equalsIgnoreCase("WALES")) {
+        }
+        else if(country.equalsIgnoreCase("wales") || country.equalsIgnoreCase("WALES") ) {
             driver.findElement(WALES).click();
-        } else if (countryName.equalsIgnoreCase("nire") || countryName.equalsIgnoreCase("NORTHERN_IRELAND")) {
+        }
+
+        else if (country.equalsIgnoreCase("northern_ireland") || country.equalsIgnoreCase("NORTHERN_IRELAND") )
+        {
             driver.findElement(NORTHERN_IRELAND).click();
         }
+
+        driver.findElement(NEXT_BUTTON).click();
+
     }
-    public String getTitle() {
-        String actualTitle = driver.findElement(HEADING).getText();
-        return actualTitle;
     }
-}
+

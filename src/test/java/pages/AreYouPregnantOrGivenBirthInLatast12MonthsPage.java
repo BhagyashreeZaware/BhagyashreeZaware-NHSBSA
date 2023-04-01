@@ -9,7 +9,6 @@ public class AreYouPregnantOrGivenBirthInLatast12MonthsPage {
     By NEXT_BUTTON = By.id("next-button");
 
     private WebDriver driver;
-    DriverFactory driverFactory = new DriverFactory();
 
     // Constructor of the page class:
     public AreYouPregnantOrGivenBirthInLatast12MonthsPage(WebDriver driver) {
