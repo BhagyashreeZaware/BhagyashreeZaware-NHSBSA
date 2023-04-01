@@ -10,6 +10,7 @@ Installation (pre-requisites)
     - Eclipse or IntelliJ 
 
 Download a Framework:
+https://github.com/BhagyashreeZaware/BhagyashreeZaware-NHSBSA
 
 Report will be generated tо directory: target/site/allure-maven/index.html and you can view it locally.
 

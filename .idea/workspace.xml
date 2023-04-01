@@ -5,46 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88a71488-2f51-4062-86e0-00f637d13cae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AreYouPregnantOrGivenBirthInLatast12MonthsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CommonPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DoYouClaimAnyBenefisTaxCreditsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DoYouHaveAnInjuryOrIllnessPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DoYouHaveDiabetesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DoYouHaveGlaucomaPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DoYouHaveMoreSavingsInvestmentsPropertyPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DoYouLivePermanentlyInCareHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DoYouLiveWithPartnerPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/IsYourGPPracticeInScotlandOrWalesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/WhatIsYourDateOfBirthPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/WhichCountryDoYouLiveInPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/WhichCountryIsYourDentalPracticeInPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/AreYouPregnantOrGivenBirthInLatast12MonthsSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/CommonSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DoYouClaimAnyBenefisTaxCreditsSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DoYouHaveAnInjuryOrIllnessSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DoYouHaveDiabetesSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DoYouHaveGlaucomaSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DoYouHaveMoreSavingsInvestmentsPropertySteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DoYouLivePermanentlyInCareHomeSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/DoYouLiveWithPartnerSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/IsYourGPPracticeInScotlandOrWalesSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/WhatIsYourDateOfBirthSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/WhichCountryDoYouLiveInSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/WhichCountryIsYourDentalPracticeInSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testrunners/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/EndToEndJourney.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
