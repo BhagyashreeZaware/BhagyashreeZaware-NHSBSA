@@ -17,9 +17,8 @@ public class CombinedTakeHomePay {
 	public void combinedTakeHomePay(String pay_option) {
 		
 		if (pay_option.equalsIgnoreCase("Yes")) {
-			driver.findElement(YES_RADIO_BUTTON).click();
+				driver.findElement(YES_RADIO_BUTTON).click();
 		}
-		
 		else if (pay_option.equalsIgnoreCase("No")) {
 			driver.findElement(NO_RADIO_BUTTON).click();
 		}

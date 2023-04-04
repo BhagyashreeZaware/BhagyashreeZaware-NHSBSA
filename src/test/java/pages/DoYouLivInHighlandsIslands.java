@@ -3,29 +3,25 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class IsYourGPPracticeInScotlandOrWalesPage {
-    WebDriver driver;
+public class DoYouLivInHighlandsIslands {
 
+    WebDriver driver;
     By YES_RADIO_BUTTON = By.id("radio-yes");
     By NO_RADIO_BUTTON = By.id("radio-no");
     By NEXT_BUTTON = By.id("next-button");
-
-    public IsYourGPPracticeInScotlandOrWalesPage (WebDriver driver) {
+    public DoYouLivInHighlandsIslands(WebDriver driver){
         this.driver = driver;
-
     }
 
-    public void gPpracticeInScotlandOrWales(String option) {
+    public void liveInTheHighlandsAndIslands(String credit_option) {
 
-        if (option.equalsIgnoreCase("Yes")) {
+        if (credit_option.equalsIgnoreCase("yes")) {
             driver.findElement(YES_RADIO_BUTTON).click();
-
         }
-        else if (option.equalsIgnoreCase("No")) {
+
+        else if (credit_option.equalsIgnoreCase("no")) {
             driver.findElement(NO_RADIO_BUTTON).click();
         }
         driver.findElement(NEXT_BUTTON).click();
-
     }
-    ;
 }

@@ -1,7 +1,7 @@
 package pages;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import utilities.DriverFactory;
 
 public class DoYouLiveWithPartnerPage {
      WebDriver driver;
@@ -14,7 +14,6 @@ public class DoYouLiveWithPartnerPage {
     By NEXT_BUTTON = By.id("next-button");
 
     public void liveWithPartner(String partner_option) {
-
         if (partner_option.equalsIgnoreCase("Yes")) {
             driver.findElement(YES_RADIO_BUTTON).click();
 
